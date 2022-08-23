@@ -58,24 +58,21 @@ All three models perform very similarly across the board. The neural network per
 
 For 2-class positivity rate, the models are performed similarly for recall and F1-score as well, with the neural network performing slightly better than the other two models. However, the performance gap is not very large.
 
-Model performance for positivity rate and fatality rate were close for 2-class and 6-class, with 2-class values around 0.7 and 6-class values around 0.5. The models did not seem to have more difficulty predicting positivity rate than fatality rate or vice versa. 
+Model performance for positivity rate and fatality rate were close for 2-class and 6-class, with 2-class values around 0.7 and 6-class values around 0.5. 
 
 ### Goal 2: Identify predictors of COVID positivity and fatality rates in the U.S.
 
 Occupations in production, transportation, and material moving were associated with higher positivity rates, indicating that people who travel for their job are more likely to spread COVID. 
 
-Age and diabetes are risk factors for fatality rate, but not positivity rate. This indicates that older, more sickly people are less likely to spread COVID , but more likely to die from COVID if they catch it. 
+Age and diabetes are risk factors for fatality rate, but not positivity rate. This can indicate that older and people with diabetes are less likely to spread COVID, but more likely to die from COVID if they catch it. 
 
- Education level appears to be connected with COVID spread as several features with coefficients of greater magnitude in logistic regression were related to education (e.g. School Enrollment in Fatality, At least Bachelor’s Degree, Less Than High School Diploma and Graduate Degree in Positivity). 
+ Education level appears to be connected with COVID spread as several features with coefficients of greater magnitude in logistic regression were related to education. 
 
 The Gini Coefficient was also correlated with probability of being high risk for both positivity rate and fatality rate in binary classification, indicating that counties with greater income inequality are hit harder by COVID. 
 
 The latitude and longitude of a county also were strongly relevant features for binary fatality rate classification, indicating that certain geographical regions are hit harder by COVID deaths. This makes intuitive sense, as a COVID breakout in one county would be likely to affect neighboring counties. 
 
-Potential future steps would include redefining the multiclass in terms of percentiles instead of average and standard deviation. Defining classes in terms of percentiles would lead to more balanced classes which may improve model performance for multi-class classification. 
-
-
-
+Correlation does not always imply causation. This is just a reference. 
 
 
 _This is a group project, I only have logistic regression code._
