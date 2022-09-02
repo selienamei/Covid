@@ -1,4 +1,4 @@
-# COVID-19: Which NYC counties are at high risk and what are the possible predictors. 
+# COVID-19: Which counties are at high risk and what are the possible predictors. 
 There are 2 goals in this project:
 1. Develop models to accurately classify U.S. counties based on COVID positivity and fatality rates.
 2. Identify predictors of COVID positivity and fatality rates in the U.S.
