@@ -34,6 +34,7 @@ The six classes partition data by positivity/fatality rate based on thresholds o
 <br  />
 The fatality rate is noticeably less normally-distributed than the positivity rate, with the lowest class threshold falling below 0 and the class counts being less symmetric around the average.
 
+
 ## Methods
 **Goal 1:**
 Logistic Regression, SVM, Neural Network 
@@ -59,6 +60,10 @@ All three models perform very similarly across the board. The neural network per
 For 2-class positivity rate, the models are performed similarly for recall and F1-score as well, with the neural network performing slightly better than the other two models. However, the performance gap is not very large.
 
 Model performance for positivity rate and fatality rate were close for 2-class and 6-class, with 2-class values around 0.7 and 6-class values around 0.5. 
+<br  />
+![alt text](https://github.com/selienamei/Covid/blob/main/images/positivity_rate.JPG "Logo Title Text 1")
+![alt text](https://github.com/selienamei/Covid/blob/main/images/fatality_rate.JPG "Logo Title Text 1")
+
 
 ### Goal 2: Identify predictors of COVID positivity and fatality rates in the U.S.
 
