@@ -48,7 +48,7 @@ Coefficient of the features
 
 2-class:
 <br  />
-![alt text](https://github.com/selienamei/Covid/blob/main/images/2_class.JPG "Logo Title Text 1")
+![alt text](https://github.com/selienamei/Covid/blob/main/images/two_class.JPG "Logo Title Text 1")
 <br  />
 6-class:
 <br  />
