@@ -51,19 +51,21 @@ Coefficient of the features
 <br  />
 ![alt text](https://github.com/selienamei/Covid/blob/main/images/22_class.JPG "Logo Title Text 1")
 <br  />
+
+![alt text](https://github.com/selienamei/Covid/blob/main/images/2_rate.JPG "Logo Title Text 1")
+
 6-class:
 <br  />
 ![alt text](https://github.com/selienamei/Covid/blob/main/images/6_class.JPG "Logo Title Text 1")
 <br  />
+
+![alt text](https://github.com/selienamei/Covid/blob/main/images/6_rate.JPG "Logo Title Text 1")
+
 All three models perform very similarly across the board. The neural network performed the best or tied for best in 14 of 16 parameters in the summary. 
 
 For 2-class positivity rate, the models are performed similarly for recall and F1-score as well, with the neural network performing slightly better than the other two models. However, the performance gap is not very large.
 
 Model performance for positivity rate and fatality rate were close for 2-class and 6-class, with 2-class values around 0.7 and 6-class values around 0.5. 
-<br  />
-![alt text](https://github.com/selienamei/Covid/blob/main/images/positivity_rate.JPG "Logo Title Text 1")
-![alt text](https://github.com/selienamei/Covid/blob/main/images/fatality_rate.JPG "Logo Title Text 1")
-
 
 ### Goal 2: Identify predictors of COVID positivity and fatality rates in the U.S.
 
