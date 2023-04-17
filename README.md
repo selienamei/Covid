@@ -71,9 +71,9 @@ Model performance for positivity rate and fatality rate were close for 2-class a
 
 Occupations in production, transportation, and material moving were associated with higher positivity rates, indicating that people who travel for their job are more likely to spread COVID. 
 
-Age and diabetes are risk factors for fatality rate, but not positivity rate. This can indicate that older and people with diabetes are less likely to spread COVID, but more likely to die from COVID if they catch it. 
+Age and diabetes are risk factors for fatality rate, but not positivity rate. This can indicate that older and people with diabetes are more likely to die from COVID if they catch it. 
 
- Education level appears to be connected with COVID spread as several features with coefficients of greater magnitude in logistic regression were related to education. 
+Education level appears to be connected with COVID spread as several features with coefficients of greater magnitude in logistic regression were related to education. 
 
 The Gini Coefficient was also correlated with probability of being high risk for both positivity rate and fatality rate in binary classification, indicating that counties with greater income inequality are hit harder by COVID. 
 
